@@ -46,7 +46,7 @@ for mod in modules:
     L.log(L.ERROR, str(e))
 
 
-class GLaDOS(znc.Module):
+class GIB(znc.Module):
   description = "GIB"  # Generic IRC Bot
 
   # Users that are allowed to perform actions and are not bound to cooldown
