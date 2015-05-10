@@ -30,3 +30,12 @@ Via PM:
 
     <sumire> reloadmod batoto
     <Sawako> Mod batoto succesfully (re)loaded!
+
+
+modules.log:
+
+    [2015-02-28 17:31:11] |   INFO: GIB started!
+    [2015-05-10 23:01:31] |   INFO: #botspam       call: .mu, args: ['one', 'punch', 'man']
+    [2015-05-10 23:01:33] |   INFO: #botspam       finish: .mu, (1534ms)
+    [2015-05-10 23:02:50] |   WARN: Module 'batoto' was reloaded.
+    [2015-05-10 23:19:46] |  ERROR: Catastrophical error at broken: No module named broken
