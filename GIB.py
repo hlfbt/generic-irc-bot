@@ -47,7 +47,7 @@ for mod in modules:
 
 
 class GIB(znc.Module):
-  description = "GIB"  # Generic IRC Bot
+  description = "Generic IRC Bot"  # Generic IRC Bot
 
   # Users that are allowed to perform actions and are not bound to cooldown
   user_whitelist = ["Potatoe"]
