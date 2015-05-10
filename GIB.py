@@ -158,7 +158,7 @@ class GLaDOS(znc.Module):
         args = msglst[2:]
       if not len(args):
         self.put_notice(nik, 'Possible commands: ' + help)
-        self.put_notice(nik, gib.ircstr('For more details: ´B/msg ' + me + ' help´N or visit ´Bhttps://animebytes.tv/kb.php?id=5´N'))
+        self.put_notice(nik, gib.ircstr('For more details: ´B/msg ' + me + ' help´N'))
         return znc.CONTINUE
       if args[0] in commands:
         mod = Modules[commands[args[0]]]
