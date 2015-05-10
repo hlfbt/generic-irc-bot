@@ -5,6 +5,11 @@ Currently it is only a simple [ZNC](http://wiki.znc.in/ZNC) python plugin,
 because I am too lazy to write my own IRC library for python3 and I cannot find good already existing ones :(
 
 
+## Usage
+
+Simply add this to your ZNC's module directory and enable the global Python module, then you should be able to enable the GIB module.
+The bots modules directory is `gib/`, relative from ZNC's module directory (so for instance `/etc/znc/modules/gib/`).
+
 
 ## Examples
 
